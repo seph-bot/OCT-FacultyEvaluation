@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Manage Students</title>
+        <link rel="icon" href="../images/logo.jpg"/>
+        <link rel="stylesheet" href="../css/faculty.css">
+    </head>
+    <body>
+        <header>
+            <h1>Manage Students</h1>
+            <button class="back" onclick="window.location.href='faculty_teacher_dashboard.html'">Back</button>
+            <button onclick="logout()">Logout</button>
+            
+        </header>
+
+        <div class="manage-section">
+            <h2>Add New Student</h2>
+            <form onsubmit="addStudent(event)">
+                <input type="text" id="studentName" placeholder="Student's Name" required>
+                <input type="text" id="strand" placeholder="Strand (e.g.,ICT)" required>
+                <input type="text" id="section" placeholder="Section (e.g., LYRA" required>
+                <button type="submit">Add Student</button>
+            </form>
+
+            <h2>Student List</h2>
+            <table id="studentTable">
+                <th>
+                    <tr>
+                        <th>Name</th>
+                        <th>Strand</th>
+                        <th>Section</th>
+                        <th>Action</th>
+                    </tr>
+                </th>
+                <t>
+                </t>
+            </table>
+        </div>
+
+        <script src="faculty.js"></script>
+    </body>
+</html>

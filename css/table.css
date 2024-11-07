@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.done {
+    color: green;
+    font-weight: bold;
+}
+
+.not-done {
+    color: red;
+    font-weight: bold;
+}
+
+.evaluate-button {
+    background-color: #4CAF50; 
+    color: white;
+    border: none; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+}
+
+.evaluate-button:hover {
+    background-color: #45a049; 
+}
+h1{
+    text-align: center;
+}
+
+button[onclick="logout()"] {
+    width: 70px;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[onclick="logout()"]:hover {
+    background-color: #d32f2f;
+}
+.back{
+    width: 70px;
+    padding: 10px;
+    background-color: #a5a5a5;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.back:hover {
+    background-color: #9c9a9a;
+}

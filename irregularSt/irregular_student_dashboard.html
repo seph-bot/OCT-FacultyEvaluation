@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Irregular Student</title>
+        <link rel="icon" href="../images/logo.jpg"/>
+        <link rel="stylesheet" href="../css/irreg.css"/>
+    </head>
+    <body>
+        <h1>Student Dashboard</h1>
+        <button onclick="logout()">Logout</button>
+        
+        <form id="subjectForm">
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Enter</th>
+                </tr>
+                <tr>
+                    <td>
+                        <select id="subjectSelect">
+                            <option value="perdev">Personal Development</option>
+                            <option value="eapp">Eapp</option>
+                            <option value="philo">Philosophy</option>
+                        </select>
+                    </td>
+                    <td><button type="button" id="enterButton">Enter</button></td>
+                </tr>
+            </table>
+        </form>
+
+        <script src="irreg.js"></script>
+    </body>
+</html>

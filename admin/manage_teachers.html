@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Teachers</title>
+    <link rel="icon" href="../images/logo.jpg"/>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Manage Teachers</h1>
+        <button class="back" onclick="window.location.href='admin_dashboard.html'">Back</button>
+        <button onclick="logout()">Logout</button>
+        
+    </header>
+
+    <div class="manage-section">
+        <h2>Add New Teacher</h2>
+        <form onsubmit="addTeacher(event)">
+            <input type="text" id="teacherName" placeholder="Teacher's Name" required>
+            <input type="text" id="subject" placeholder="Subject" required>
+            <button type="submit">Add Teacher</button>
+        </form>
+        
+        <h2>Teacher List</h2>
+        <table id="teacherTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--dito mapupunta yung list ng teacher-->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
