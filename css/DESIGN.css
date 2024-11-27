@@ -2,7 +2,8 @@ body{
     background: url('../images/BG2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;  
+    background-position: center;
+    font-family: "Montserrat", "Century Gothic", Arial, Helvetica, sans-serif;
 }
    
 .login{
